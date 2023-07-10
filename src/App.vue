@@ -13,6 +13,6 @@ export default {
 @use './assets/scss/vars.scss' as *;
 
 h1 {
-  color: $secondary-color;
+  color: $tertiary-color;
 }
 </style>
