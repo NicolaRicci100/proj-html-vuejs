@@ -1,6 +1,7 @@
 <script>
+import AppJournal from './AppMain_components/AppJournal.vue';
 export default {
-
+  components: { AppJournal }
 }
 </script>
 
@@ -10,6 +11,7 @@ export default {
       Placeholder
     </div>
   </section>
+  <AppJournal />
 </template>
 
 <style lang="scss" scoped>
@@ -25,10 +27,10 @@ export default {
   background-image: url(../assets/img/3a74ce3d0532b7773b174c45ca3bd05a_bigger.png);
   border: $debug;
 
-  div {
+  >div {
     height: 200px;
     width: 700px;
-    background-color: $bg-color;
+    background-color: $primary-color;
     @include flex_center;
   }
 }

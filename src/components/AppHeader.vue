@@ -16,8 +16,14 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../assets/scss/mixins.scss' as *;
+
 //temporaneo
 .row {
   height: 200px;
+
+  :last-child {
+    @include flex_center
+  }
 }
 </style>
