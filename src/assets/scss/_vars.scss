@@ -1,6 +1,11 @@
-//* in riferimento alla palette indicata nelle reference *//
+//* in riferimento alla palette indicata nelle reference
 $bg-color: #F5F5F1;
 $primary-color: #FFFFFF;
 $secondary-color: #FC7523;
 $tertiary-color: #67615A;
 
+//* font (Catamaran e Vidaloka importati con Google Fonts)
+$font: Catamaran, Vidaloka, Arial, Helvetica, sans-serif;
+
+// TODO usato per debug
+$debug: 1px dashed red;

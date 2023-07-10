@@ -1,5 +1,10 @@
 @use './vars' as *;
 
+body{
+  font-family: $font;
+  background-color: $bg-color;
+}
+
 h1 {
-  color: $secondary-color;
+  color: $tertiary-color;
 }
