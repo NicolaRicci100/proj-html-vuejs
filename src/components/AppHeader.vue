@@ -6,7 +6,7 @@ export default {
 
 <template>
   <section class="container">
-    <div class="row row-cols-4 justify-content-center">
+    <div class="row row-cols-3 justify-content-center">
       <div class="col">Placeholder</div>
       <div class="col text-center">Placeholder</div>
       <div class="col text-end">Placeholder</div>
@@ -15,4 +15,9 @@ export default {
   </section>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+//temporaneo
+.row {
+  height: 200px;
+}
+</style>
