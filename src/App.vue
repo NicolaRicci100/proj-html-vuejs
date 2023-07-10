@@ -17,7 +17,9 @@ export default {
 @use './assets/scss/mixins.scss' as *;
 
 // debug temporaneo
-section div {
-  border: $debug;
+section {
+  div {
+    border: $debug;
+  }
 }
 </style>

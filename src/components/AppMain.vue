@@ -20,6 +20,7 @@ export default {
 #jumbotron {
   height: 600px;
   @include flex_center;
+
   // temporanei
   background-image: url(../assets/img/3a74ce3d0532b7773b174c45ca3bd05a_bigger.png);
   border: $debug;
