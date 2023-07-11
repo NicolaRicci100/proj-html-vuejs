@@ -2,8 +2,9 @@
 import AppJournal from './AppMain_components/AppJournal.vue';
 import AppRecipies from './AppMain_components/AppRecipies.vue';
 import AppCollection from './AppMain_components/AppCollection.vue';
+import AppTable from './AppMain_components/AppTable.vue';
 export default {
-  components: { AppJournal, AppRecipies, AppCollection }
+  components: { AppJournal, AppRecipies, AppCollection, AppTable }
 }
 </script>
 
@@ -16,6 +17,7 @@ export default {
   <AppJournal />
   <AppRecipies />
   <AppCollection />
+  <AppTable />
 </template>
 
 <style lang="scss" scoped>
