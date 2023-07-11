@@ -10,7 +10,7 @@ export default {
       <div class="col-8">
         Placeholder
       </div>
-      <div class="col-6">
+      <div class="col-6 bg-white">
         Placeholder
       </div>
       <div class="col-6">
@@ -22,7 +22,6 @@ export default {
 
 <style lang="scss" scoped>
 @use '../../assets/scss/mixins.scss' as *;
-@use '../../assets/scss/vars' as *;
 
 section {
   height: 1000px;
