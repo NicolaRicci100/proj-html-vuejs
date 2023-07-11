@@ -1,7 +1,8 @@
 <script>
 import AppJournal from './AppMain_components/AppJournal.vue';
+import AppRecipies from './AppMain_components/AppRecipies.vue';
 export default {
-  components: { AppJournal }
+  components: { AppJournal, AppRecipies }
 }
 </script>
 
@@ -12,6 +13,7 @@ export default {
     </div>
   </section>
   <AppJournal />
+  <AppRecipies />
 </template>
 
 <style lang="scss" scoped>

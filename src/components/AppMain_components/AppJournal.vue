@@ -22,6 +22,7 @@ export default {
 #journal {
   height: 450px;
   background-color: $primary-color;
+  translate: 0 -80px;
   border: $debug; //temporaneo
 }
 
