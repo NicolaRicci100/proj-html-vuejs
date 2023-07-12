@@ -18,9 +18,9 @@ export default {
 <template>
   <section class="container">
     <div class="row row-cols-3 justify-content-center">
-      <div class="col d-flex justify-content-between align-items-start pt-3">
+      <div class="col d-flex justify-content-start align-items-start pt-3">
         <a href="#">Download App <span class="d-inline">iOS</span></a>
-        <a href="#">Advertise with us</a>
+        <a href="#" class="ps-4">Advertise with us</a>
       </div>
       <div class="col logo">
         <img src="../assets/img/avada-food-logo.png" alt="logo di Avada Food">
