@@ -11,7 +11,9 @@ export default {
 <template>
   <section id="jumbotron">
     <div>
-      Placeholder
+      <div class="shadow-lg">TODAY'S PICKS</div>
+      <h2>Food Corner: Top Japanese Restaurants for Sushi</h2>
+      <span>March 25, 2019</span>
     </div>
   </section>
   <AppJournal />
@@ -28,16 +30,43 @@ export default {
 #jumbotron {
   height: 600px;
   @include flex_center;
-
-  // temporanei
-  background-image: url(../assets/img/3a74ce3d0532b7773b174c45ca3bd05a_bigger.png);
-  border: $debug;
+  background-image: url(../assets/img/slide-jumboton-bg.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   >div {
     height: 200px;
     width: 700px;
     background-color: $primary-color;
     @include flex_center;
+    flex-direction: column;
+
+    >div {
+      translate: 0 -15px;
+      color: $primary-color;
+      background-color: $secondary-color;
+      padding: 8px 16px;
+      border-radius: 5px;
+      font-weight: 600;
+    }
   }
+}
+
+h2 {
+  padding: 10px 100px;
+  text-align: center;
+  font-family: Vidaloka;
+  font-size: 40px;
+  cursor: pointer;
+
+  &:hover {
+    color: $secondary-color;
+  }
+}
+
+span {
+  color: $tertiary-color;
+  padding-bottom: 20px;
 }
 </style>
