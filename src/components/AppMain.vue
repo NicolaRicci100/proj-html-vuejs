@@ -30,7 +30,7 @@ export default {
 #jumbotron {
   height: 600px;
   @include flex_center;
-  background-image: url(../assets/img/slide-jumboton-bg.jpeg);
+  background-image: url(../assets/img/single-post-img3-1200x790.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,6 +41,7 @@ export default {
     background-color: $primary-color;
     @include flex_center;
     flex-direction: column;
+    border-radius: 5px;
 
     >div {
       translate: 0 -15px;
