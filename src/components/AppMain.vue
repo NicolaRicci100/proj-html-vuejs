@@ -19,7 +19,7 @@ export default {
   <AppJournal />
   <AppRecipies />
   <AppCollection />
-  <AppTable />
+  <!-- <AppTable /> -->
 </template>
 
 <style lang="scss" scoped>

@@ -1,4 +1,5 @@
 <script>
+import { gallery } from '../../data/index'
 export default {
   methods: {
     getImagePath(imageFile) {
@@ -8,23 +9,7 @@ export default {
   },
   data() {
     return {
-      gallery: [
-        {
-          foto: "single-post-img3-400x263.jpg",
-          title: "Food Corner: Top Japanese Restaurants for Sushi",
-          text: "By admin | March 25th, 2019"
-        },
-        {
-          foto: "fi-roundup-400x263.jpg",
-          title: "Roundup: My New Favourite Recipes For Healthy Living",
-          text: "By admin | March 25th, 2019"
-        },
-        {
-          foto: "fi-toasts-400x263.jpg",
-          title: "Why These Toasts with Tea are My New Favorite",
-          text: "By admin | March 25th, 2019"
-        }
-      ]
+      gallery
     }
   }
 }

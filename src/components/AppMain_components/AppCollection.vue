@@ -1,4 +1,5 @@
 <script>
+import { collections } from '../../data/index'
 export default {
   methods: {
     getImagePath(imageFile) {
@@ -8,40 +9,7 @@ export default {
   },
   data() {
     return {
-      collections: [
-        {
-          name: 'DRINKS',
-          icon: 'drinks-recipes.png'
-        },
-        {
-          name: 'SOUPS',
-          icon: 'soups-recipes.png'
-        },
-        {
-          name: 'BAKERY',
-          icon: 'baking-recipes.png'
-        },
-        {
-          name: 'DINNER',
-          icon: 'dinner-recipes.png'
-        },
-        {
-          name: 'HEALTHY',
-          icon: 'healthy-recipes.png'
-        },
-        {
-          name: 'STAFF PICKS',
-          icon: 'staff-picks-recipes.png'
-        },
-        {
-          name: 'APPETISER',
-          icon: 'premium-recipes.png'
-        },
-        {
-          name: 'QUICK & EASY',
-          icon: 'quick-easy-recipes.png'
-        },
-      ]
+      collections
     }
   }
 }
