@@ -23,9 +23,41 @@ export default {
         nunc lacinia lobortis.</p>
     </div>
     <ul class="row row-cols-4">
-      <li class="col d-flex flex-column" v-for="item in collections" :key="item.name">
-        <img :src="getImagePath(item.icon)" :alt="item.name">
+      <!-- <li class="col d-flex flex-column" v-for="item in collections" :key="item.name">
+        <img src="../../assets/img/drinks-recipes.png" :alt="item.name">
         <p>{{ item.name }}</p>
+      </li> -->
+      <li class="col d-flex flex-column">
+        <img src="../../assets/img/drinks-recipes.png">
+        <p>DRINKS</p>
+      </li>
+      <li class="col d-flex flex-column">
+        <img src="../../assets/img/soups-recipes.png">
+        <p>SOUPS</p>
+      </li>
+      <li class="col d-flex flex-column">
+        <img src="../../assets/img/baking-recipes.png">
+        <p>BAKERY</p>
+      </li>
+      <li class="col d-flex flex-column">
+        <img src="../../assets/img/dinner-recipes.png">
+        <p>DINNER</p>
+      </li>
+      <li class="col d-flex flex-column">
+        <img src="../../assets/img/healthy-recipes.png">
+        <p>HEALTHY</p>
+      </li>
+      <li class="col d-flex flex-column">
+        <img src="../../assets/img/staff-picks.png">
+        <p>STAFF PICKS</p>
+      </li>
+      <li class="col d-flex flex-column">
+        <img src="../../assets/img/premium-recipes.png">
+        <p>APPETISER</p>
+      </li>
+      <li class="col d-flex flex-column">
+        <img src="../../assets/img/quick-easy-recipes.png">
+        <p>QUICK & EASY</p>
       </li>
     </ul>
   </section>

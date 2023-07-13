@@ -50,7 +50,7 @@ const collections = [
   },
   {
     name: 'STAFF PICKS',
-    icon: 'staff-picks-recipes.png'
+    icon: 'staff-picks.png'
   },
   {
     name: 'APPETISER',

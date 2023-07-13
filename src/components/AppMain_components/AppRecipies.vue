@@ -39,7 +39,33 @@ export default {
       </div>
       <div class="col-6">
         <div class="d-flex flex-wrap justify-content-evenly">
-          <figure v-for="food in foods" :key="food"><img :src="getImagePath(food)" :alt="food"></figure>
+          <!-- <figure v-for="food in foods" :key="food">
+            <img src="../../assets/img/Mixed-fruits-400x263.jpg" :alt="food">
+          </figure> -->
+          <figure>
+            <img src="../../assets/img/Mixed-fruits-400x263.jpg">
+          </figure>
+          <figure>
+            <img src="../../assets/img/r-rachel-park-366508-unsplash-min-400x263.jpg">
+          </figure>
+          <figure>
+            <img src="../../assets/img/r-michelle-tsang-500721-unsplash-min-400x263.jpg">
+          </figure>
+          <figure>
+            <img src="../../assets/img/quick-summer-drink-460x295.jpg">
+          </figure>
+          <figure>
+            <img src="../../assets/img/r-maarten-van-den-heuvel-400626-unsplash-min-460x295.jpg">
+          </figure>
+          <figure>
+            <img src="../../assets/img/perfect-cosmopolitan-460x295.jpg">
+          </figure>
+          <figure>
+            <img src="../../assets/img/fi2x-6-460x295.jpg">
+          </figure>
+          <figure>
+            <img src="../../assets/img/r-brooke-lark-96398-unsplash-min-460x295.jpg">
+          </figure>
         </div>
       </div>
     </div>
