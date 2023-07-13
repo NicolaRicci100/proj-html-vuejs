@@ -42,9 +42,9 @@ export default {
           </div>
         </div>
         <div class="col d-flex flex-column align-itms-center justify-content-center">
-          <h6 class="pb-3">GET OUR APP</h6>
-          <img class="py-4" src="../../assets/img/download-app-store.png" alt="App store">
-          <img class="py-4" src="../../assets/img/download-android.png" alt="Android store">
+          <h6 class="pb-4">GET OUR APP</h6>
+          <img class="py-4 ps-4" src="../../assets/img/download-app-store.png" alt="App store">
+          <img class="py-4 ps-4" src="../../assets/img/download-android.png" alt="Android store">
         </div>
       </div>
     </div>
