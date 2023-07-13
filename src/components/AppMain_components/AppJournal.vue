@@ -53,7 +53,6 @@ export default {
   height: 450px;
   background-color: $primary-color;
   translate: 0 -80px;
-  border: $debug; //temporaneo
 }
 
 span {
@@ -65,7 +64,6 @@ span {
 h5 {
   @include flex_center;
   margin: 30px 0 20px;
-  color: $tertiary-color;
 }
 
 h6 {
