@@ -111,7 +111,6 @@ figure {
   height: 160px;
   width: 250px;
   @include flex_center;
-  border: $debug;
 
   img {
     width: 100%;

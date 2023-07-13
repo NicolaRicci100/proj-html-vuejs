@@ -17,11 +17,4 @@ export default {
 @use './assets/scss/style.scss' as *;
 @use './assets/scss/vars.scss' as *;
 @use './assets/scss/mixins.scss' as *;
-
-// debug temporaneo
-section {
-  div {
-    border: $debug;
-  }
-}
 </style>

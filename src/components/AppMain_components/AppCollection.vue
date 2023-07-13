@@ -90,7 +90,6 @@ ul {
 
 li {
   height: 50%;
-  border: $debug;
   @include flex_center;
   background-color: $primary-color;
   border: 20px solid $bg-color;

@@ -41,7 +41,6 @@ ul.row {
   li {
     background-color: white;
     @include flex_center;
-    border: $debug;
   }
 }
 

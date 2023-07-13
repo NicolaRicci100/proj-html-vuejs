@@ -53,7 +53,6 @@ export default {
 figure {
   width: 25%;
   height: 220px;
-  border: $debug;
   margin: 0;
 
   img {
