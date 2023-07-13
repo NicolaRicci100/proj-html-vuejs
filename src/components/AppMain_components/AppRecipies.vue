@@ -33,7 +33,7 @@ export default {
           non nunc lacinia
           lobortis.</p>
       </div>
-      <div class="col-6 bg-white card p-0">
+      <div class="col-6 bg-white card p-0 border-0 rounded-0">
         <img src="../../assets/img/Yogurt-Nan-800x527.jpg" class="card-img-top rounded-0 border-0" alt="Yogurt-Nan">
         <div class="card-body">
           <h5 class="card-title">Lunch Favourite with Salad, Naan And Beans</h5>

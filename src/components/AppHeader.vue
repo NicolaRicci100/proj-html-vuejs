@@ -43,7 +43,6 @@ export default {
 @use '../assets/scss/mixins.scss' as *;
 @use '../assets/scss/vars' as *;
 
-//temporaneo
 .row {
   height: 200px;
   color: $tertiary-color;
