@@ -8,7 +8,11 @@ export default {
   <div class="row">
     <div class="col-8">
       <div class="bg-white">
-        Placeholder
+        <img src="../../../assets/img/single-post-img3-600x395.jpg" alt="">
+        <div class="m-4">
+          <h5>Food Corner: Top Japanese Restaurants for Sushi</h5>
+          <p>By admin | March 25th, 2019</p>
+        </div>
       </div>
       <div>
         <ul class="row row-cols-2">
@@ -46,5 +50,13 @@ ul.row {
 
 div.bg-white {
   height: 800px;
+
+  img {
+    width: 100%;
+  }
+}
+
+h5 {
+  font-family: Vidaloka;
 }
 </style>
