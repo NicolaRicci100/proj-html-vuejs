@@ -1,9 +1,15 @@
 <script>
 export default {
+  methods: {
+    getImagePath(imageFile) {
+      const url = new URL(`/@/assets/img/${imageFile}`, import.meta.url);
+      return url.href;
+    }
+  },
   data() {
     return {
       foods: [
-        'Mixed-fruits-400x263.jpg',  // NON LE PRENDE CON V-BIND... INDAGARE...
+        'Mixed-fruits-400x263.jpg',
         'r-rachel-park-366508-unsplash-min-400x263.jpg',
         'r-michelle-tsang-500721-unsplash-min-400x263.jpg',
         'quick-summer-drink-460x295.jpg',
@@ -41,7 +47,7 @@ export default {
       </div>
       <div class="col-6">
         <div class="d-flex flex-wrap justify-content-evenly">
-          <figure v-for="food in foods"><img src="../../assets/img/Mixed-fruits-400x263.jpg" alt=""></figure>
+          <figure v-for="food in foods" :key="food"><img :src="getImagePath(food)" :alt="food"></figure>
         </div>
       </div>
     </div>

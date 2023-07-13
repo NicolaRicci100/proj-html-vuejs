@@ -1,20 +1,26 @@
 <script>
 export default {
+  methods: {
+    getImagePath(imageFile) {
+      const url = new URL(`/@/assets/img/${imageFile}`, import.meta.url);
+      return url.href;
+    }
+  },
   data() {
     return {
       gallery: [
         {
-          foto: "../../assets/img/single-post-img3-400x263.jpg", // NON LE PRENDE CON V-BIND... INDAGARE...
+          foto: "single-post-img3-400x263.jpg",
           title: "Food Corner: Top Japanese Restaurants for Sushi",
           text: "By admin | March 25th, 2019"
         },
         {
-          foto: "../../assets/img/fi-roundup-400x263.jpg",
+          foto: "fi-roundup-400x263.jpg",
           title: "Roundup: My New Favourite Recipes For Healthy Living",
           text: "By admin | March 25th, 2019"
         },
         {
-          foto: "../../assets/img/fi-toasts-400x263.jpg",
+          foto: "fi-toasts-400x263.jpg",
           title: "Why These Toasts with Tea are My New Favorite",
           text: "By admin | March 25th, 2019"
         }
@@ -32,9 +38,9 @@ export default {
       <span class="flex-grow-1"></span>
     </div>
     <div class="card-container row row-cols-3">
-      <div class="col" v-for="item in gallery">
+      <div class="col" v-for="item in gallery" :key="item.title">
         <div class="card text-center rounded-0 border-0">
-          <img src="../../assets/img/single-post-img3-400x263.jpg" class="card-img-top rounded-0" :alt="item.title">
+          <img :src="getImagePath(item.foto)" class="card-img-top rounded-0" :alt="item.title">
           <div class="card-body">
             <h6 class="card-title">{{ item.title }}</h6>
             <p class="card-text">{{ item.text }}</p>
