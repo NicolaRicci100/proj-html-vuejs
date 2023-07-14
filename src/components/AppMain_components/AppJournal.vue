@@ -23,16 +23,16 @@ export default {
       <span class="flex-grow-1"></span>
     </div>
     <div class="card-container row row-cols-3">
-      <!-- <div class="col" v-for="item in gallery" :key="item.title">
+      <div class="col" v-for="item in gallery" :key="item.title">
         <div class="card text-center rounded-0 border-0">
-          <img src="../../assets/img/single-post-img3-400x263.jpg" class="card-img-top rounded-0" :alt="item.title">
+          <img :src="getImagePath(item.foto)" class="card-img-top rounded-0" :alt="item.title">
           <div class="card-body">
             <h6 class="card-title">{{ item.title }}</h6>
             <p class="card-text">{{ item.text }}</p>
           </div>
         </div>
-      </div> -->
-      <div class="col">
+      </div>
+      <!-- <div class="col">
         <div class="card text-center rounded-0 border-0">
           <img src="../../assets/img/single-post-img3-400x263.jpg" class="card-img-top rounded-0">
           <div class="card-body">
@@ -58,7 +58,7 @@ export default {
             <p class="card-text">By admin | March 25th, 2019</p>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>

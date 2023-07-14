@@ -39,10 +39,10 @@ export default {
       </div>
       <div class="col-6">
         <div class="d-flex flex-wrap justify-content-evenly">
-          <!-- <figure v-for="food in foods" :key="food">
-            <img src="../../assets/img/Mixed-fruits-400x263.jpg" :alt="food">
-          </figure> -->
-          <figure>
+          <figure v-for="food in foods" :key="food">
+            <img :src="getImagePath(food)" :alt="food">
+          </figure>
+          <!-- <figure>
             <img src="../../assets/img/Mixed-fruits-400x263.jpg">
           </figure>
           <figure>
@@ -65,7 +65,7 @@ export default {
           </figure>
           <figure>
             <img src="../../assets/img/r-brooke-lark-96398-unsplash-min-460x295.jpg">
-          </figure>
+          </figure> -->
         </div>
       </div>
     </div>

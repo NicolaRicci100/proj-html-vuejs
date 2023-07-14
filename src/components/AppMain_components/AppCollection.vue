@@ -23,11 +23,11 @@ export default {
         nunc lacinia lobortis.</p>
     </div>
     <ul class="row row-cols-4">
-      <!-- <li class="col d-flex flex-column" v-for="item in collections" :key="item.name">
-        <img src="../../assets/img/drinks-recipes.png" :alt="item.name">
+      <li class="col d-flex flex-column" v-for="item in collections" :key="item.name">
+        <img :src="getImagePath(item.icon)" :alt="item.name">
         <p>{{ item.name }}</p>
-      </li> -->
-      <li class="col d-flex flex-column">
+      </li>
+      <!-- <li class="col d-flex flex-column">
         <img src="../../assets/img/drinks-recipes.png">
         <p>DRINKS</p>
       </li>
@@ -58,7 +58,7 @@ export default {
       <li class="col d-flex flex-column">
         <img src="../../assets/img/quick-easy-recipes.png">
         <p>QUICK & EASY</p>
-      </li>
+      </li> -->
     </ul>
   </section>
 </template>
